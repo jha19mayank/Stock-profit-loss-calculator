@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stock price calculator</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <body>
+      <h1><em>Stock's profit and loss Calculator</em></h1>
+      <main>
+        <label for="initial-price">
+          Initial Price:
+          <input
+            id="initial-price"
+            type="number"
+            placeholder="Enter initial price here"
+          />
+        </label>
+        <label for="stocks-quantity">
+          Quantity of Stocks:
+          <input
+            id="stocks-quantity"
+            type="number"
+            placeholder="Enter the Quantity"     
+          />
+        </label>
+        <label for="current-price">
+          Current Price:
+          <input
+            id="current-price"
+            type="number"
+            placeholder="Enter the current price"      
+          />
+        </label>
+        <div id="output-box"></div>
+        <button id="calculate-btn">calculate</button>
+        </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
