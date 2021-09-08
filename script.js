@@ -51,3 +51,8 @@ function showOutput(message, status) {
     outputBox.style.color = "yellow";
   }
 }
+
+document.getElementById("clear-btn").addEventListener("click", newPage);
+function newPage() {
+  document.location.reload();
+}
