@@ -1,0 +1,41 @@
+h1 {
+  font-size: 2rem;
+  margin: 30px;
+  color: aliceblue;
+}
+
+body {
+  text-align: center;
+  background-color: black;
+}
+
+label {
+  display: block;
+  padding-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: aliceblue;
+}
+
+input {
+  display: block;
+  margin: 1rem auto 1rem;
+  padding: 1rem;
+  font-size: 1.2rem;
+  border-radius: 8px;
+}
+
+#calculate-btn {
+  padding: 1rem;
+  background-color: rgb(5, 206, 162);
+  cursor: pointer;
+  color: white;
+  border-radius: 10px;
+  font-size: 1.2rem;
+}
+
+#output-box {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 10px;
+}
