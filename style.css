@@ -25,7 +25,8 @@ input {
   border-radius: 8px;
 }
 
-#calculate-btn {
+#calculate-btn,
+#clear-btn {
   padding: 1rem;
   background-color: rgb(5, 206, 162);
   cursor: pointer;
